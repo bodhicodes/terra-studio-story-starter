@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+.backup*
+*.tgz
+*.log
+.env*
+!.env.example
+*.pem
+*.key
+coverage/
