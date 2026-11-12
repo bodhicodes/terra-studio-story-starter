@@ -2,16 +2,16 @@
 
 One command gives you a story site with charts, real climate data, and a Claude Code setup that already knows how to tell a story.
 
-`npx create-next-app@latest my-story -e https://github.com/YOUR_OWNER/YOUR_REPO`
+`npx create-next-app@latest my-story -e https://github.com/bodhicodes/terra-studio-story-starter`
 
-Set the repository URL in `lib/project.ts` and replace `YOUR_OWNER/YOUR_REPO` below before publishing. GitHub and deploy links stay hidden until configured.
+The repository URL for GitHub and deploy links is configured in `lib/project.ts`.
 
 ## Quick start
 
 Install Node 20+ from [nodejs.org](https://nodejs.org/) and Git. Then run:
 
 ```sh
-npx create-next-app@latest my-story -e https://github.com/YOUR_OWNER/YOUR_REPO
+npx create-next-app@latest my-story -e https://github.com/bodhicodes/terra-studio-story-starter
 cd my-story
 npm run dev
 ```
@@ -70,4 +70,4 @@ Read `CLAUDE.md` to add a dataset. The site uses static export. Run `npm run bui
 
 ## Credits
 
-Created by Bodhi Debnath for Terra Studio. Data credits and licences are listed in `data/SOURCES.md`. Code is MIT licensed.
+Created for Terra Studio by [bodhithings.com](https://bodhithings.com) and [project3rdrock.com](https://project3rdrock.com). Data credits and licences are listed in `data/SOURCES.md`. Code is MIT licensed.

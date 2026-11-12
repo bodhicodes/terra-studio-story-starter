@@ -14,7 +14,6 @@ export default function StoryLayout({ children }: { children: React.ReactNode })
       </nav>
       <DraftBar />
       <main id="main">{children}</main>
-      <footer className="border-t border-border px-6 py-6 text-center text-sm text-muted-foreground">Built with the Terra Studio Story Starter</footer>
     </>
   );
 }
